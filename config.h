@@ -47,6 +47,7 @@ static Key keys[] = {
 	{ ALT_MODKEY,           XK_Left,   movetab,     { .i = -1 } },
 	{ ALT_MODKEY,           XK_Right,  movetab,     { .i = +1 } },
 
+	// { MODKEY,               XK_grave,  spawn,       SETPROP("_TABBED_SELECT_TAB") },
 	{ MODKEY,               XK_1,      move,        { .i = 0 } },
 	{ MODKEY,               XK_2,      move,        { .i = 1 } },
 	{ MODKEY,               XK_3,      move,        { .i = 2 } },
@@ -62,8 +63,6 @@ static Key keys[] = {
 	{ MODKEY,               XK_u,      focusurgent, { 0 } },
 	{ 0,                    XK_F11,    fullscreen,  { 0 } },
 
-	{ MODKEY,               XK_Shift_L,   showbar,    { .i = 1 } },
-	{ ShiftMask,            XK_Control_L, showbar,  { .i = 1 } },
 	{ MODKEY,               XK_period,    showbar,     { .i = 1 } },
 	{ MODKEY,               XK_comma,     showbar,      { .i = 0 } },
 

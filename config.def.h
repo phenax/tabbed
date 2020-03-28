@@ -63,8 +63,6 @@ static Key keys[] = {
 	{ MODKEY,               XK_u,      focusurgent, { 0 } },
 	{ 0,                    XK_F11,    fullscreen,  { 0 } },
 
-	{ MODKEY,               XK_Shift_L,   showbar,    { .i = 1 } },
-	{ ShiftMask,            XK_Control_L, showbar,  { .i = 1 } },
 	{ MODKEY,               XK_period,    showbar,     { .i = 1 } },
 	{ MODKEY,               XK_comma,     showbar,      { .i = 0 } },
 
