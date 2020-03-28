@@ -7,7 +7,10 @@ SRC = tabbed.c xembed.c
 OBJ = ${SRC:.c=.o}
 BIN = ${OBJ:.o=}
 
-all: options ${BIN}
+all: removeconfig options ${BIN}
+
+removeconfig:
+	rm config.h || true
 
 options:
 	@echo tabbed build options:
