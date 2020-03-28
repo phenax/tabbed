@@ -1,15 +1,15 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const char font[]        = "monospace:size=9";
-static const char* normbgcolor  = "#222222";
+static const char font[]        = "Fira Code:size=9";
+static const char* normbgcolor  = "#0f1215";
 static const char* normfgcolor  = "#cccccc";
-static const char* selbgcolor   = "#555555";
+static const char* selbgcolor   = "#2f3235";
 static const char* selfgcolor   = "#ffffff";
 static const char* urgbgcolor   = "#111111";
-static const char* urgfgcolor   = "#cc0000";
-static const char before[]      = "<";
-static const char after[]       = ">";
+static const char* urgfgcolor   = "#fb6573";
+static const char before[]      = "⬅";
+static const char after[]       = "➡";
 static const char titletrim[]   = "...";
 static const int  tabwidth      = 200;
 static const Bool foreground    = True;
@@ -47,6 +47,7 @@ static Key keys[] = {
 	{ ALT_MODKEY,           XK_Left,   movetab,     { .i = -1 } },
 	{ ALT_MODKEY,           XK_Right,  movetab,     { .i = +1 } },
 
+	// { MODKEY,               XK_grave,  spawn,       SETPROP("_TABBED_SELECT_TAB") },
 	{ MODKEY,               XK_1,      move,        { .i = 0 } },
 	{ MODKEY,               XK_2,      move,        { .i = 1 } },
 	{ MODKEY,               XK_3,      move,        { .i = 2 } },
