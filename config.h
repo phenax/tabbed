@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const char font[]        = "Fira Code:size=9";
+static const char font[]        = "JetBrains Mono:size=9";
 static const char* normbgcolor  = "#0f1215";
 static const char* normfgcolor  = "#cccccc";
 static const char* selbgcolor   = "#2f3235";
